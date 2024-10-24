@@ -1,0 +1,40 @@
+body {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.input-field {
+    margin-bottom: 20px;
+}
+.input-field input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+.input-field input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #00bfff;
+}
+.button {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #007bff;
+}
